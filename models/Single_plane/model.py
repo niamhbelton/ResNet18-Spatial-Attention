@@ -36,8 +36,7 @@ class Net(nn.Module):
         a = self.conv(x)
         a =  self.soft(a.view(*a.size()[:2], -1)).view_as(a)
         m = torch.max(a.flatten(2), 2).values
-        b= 
-        .tile(m, 1, 64)
+        b= Net.tile(m, 1, 64)
         c = a.flatten(2).flatten(1) / b
         d = torch.reshape(c, (a.shape[0],512,8,8))
         o = x*d 
