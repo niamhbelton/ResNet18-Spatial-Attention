@@ -4,7 +4,7 @@ from torchvision import models
 import numpy as np
 
 
-class MRNet(nn.Module):
+class Net(nn.Module):
     def __init__(self):
         super().__init__()
         self.pretrained_model = models.resnet18(pretrained=True)
@@ -36,7 +36,8 @@ class MRNet(nn.Module):
         a = self.conv(x)
         a =  self.soft(a.view(*a.size()[:2], -1)).view_as(a)
         m = torch.max(a.flatten(2), 2).values
-        b= MRNet.tile(m, 1, 64)
+        b= 
+        .tile(m, 1, 64)
         c = a.flatten(2).flatten(1) / b
         d = torch.reshape(c, (a.shape[0],512,8,8))
         o = x*d 
