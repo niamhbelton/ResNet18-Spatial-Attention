@@ -7,6 +7,10 @@ This is the official repository for implementing ResNet18 + Spatial Attention as
 
 # Abstract
 
+
+![GitHub Logo](/images/arc5.png)
+Format: ![Alt Text](url)
+
 # Dataset 
 The MRNet dataset is available for download at the following link https://stanfordmlgroup.github.io/competitions/mrnet/.
 
