@@ -272,7 +272,7 @@ def parse_arguments():
     parser.add_argument('-d', '--directory', type=str, required = False, default='/home/Documents/data/')
     parser.add_argument('--epochs', type=int, default=50)
     parser.add_argument('--lr', type=float, default=1e-5)
-    parser.add_argument('--patience', type=int, default=5)
+    parser.add_argument('--patience', type=int, default=10)
     parser.add_argument('--log_every', type=int, default=100)
     parser.add_argument('--seed', type=int, default=None)
     args = parser.parse_args()
