@@ -12,6 +12,20 @@ This is the official repository for implementing ResNet18 + Spatial Attention as
 
 # Dataset 
 The MRNet dataset is available for download at the following link https://stanfordmlgroup.github.io/competitions/mrnet/.
+This will download a folder named 'data'. There are two subfolders within data 'valid' and 'train'.
+
+# Code Tutorial
+Repository split into Single_plane and Multi_plane
+
+## Single Plane
+The following arguments are to train the single plane models.
+'-directory' is the directory to within the data folder. 
+
+![GitHub Logo](/images/train_arguments.png)
+
+The following command is an example of running a model to detect abnormalities using the single plane technique on data from the axial plane.
+
+![GitHub Logo](/images/run_single_train_command.png)
 
 
 # Citations
