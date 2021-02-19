@@ -85,8 +85,8 @@ def parse_arguments():
                         choices=['abnormal', 'acl', 'meniscus'])
     parser.add_argument('-p', '--plane', type=str, required = True, default=None)
     parser.add_argument('--model_name', type=str, required = True, default=None)
-    parser.add_argument('-md', '--model_directory', type=str, default='/content/models/')
-    parser.add_argument('-d', '--data_directory', type=str, default='/content/data/')
+    parser.add_argument('-md', '--model_directory', type=str, default='/models/')
+    parser.add_argument('-d', '--data_directory', type=str, default='/home/Documents/data/')
     parser.add_argument('--log_every', type=int, default=100)
     args = parser.parse_args()
     return args
