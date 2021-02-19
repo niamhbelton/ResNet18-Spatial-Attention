@@ -155,10 +155,15 @@ def run(args):
     indexes = list(range(0,1130))
     random.seed(26)
     random.shuffle(indexes)
-    ind = math.floor(len(indexes) / 8)
-    for fold in range(0,8):
-        valid_ind = indexes[ind*(fold):ind*(fold+1)]
-        train_ind = np.setdiff1d(indexes,valid_ind)
+    num_folds = 8
+    ind = math.floor(len(indexes) / num_folds)
+    for fold in range(0,num_folds):
+        if fold == num_folds -1:
+            valid_ind = indexes[ind*(fold):]
+            train_ind = np.setdiff1d(indexes,valid_ind)
+        else:
+            valid_ind = indexes[ind*(fold):ind*(fold+1)]
+            train_ind = np.setdiff1d(indexes,valid_ind)
 
 
         log_root_folder = "./logs/{0}/".format(args.task)
