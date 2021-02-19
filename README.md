@@ -18,6 +18,8 @@ This will download a folder named 'data'. There are two subfolders within data '
 Repository split into Single_plane and Multi_plane
 
 ## Single Plane
+
+### Training 
 The following arguments are to train the single plane models.
 '-directory' is the directory to within the data folder. 
 
@@ -26,6 +28,8 @@ The following arguments are to train the single plane models.
 The following command is an example of running a model to detect abnormalities using the single plane technique on data from the axial plane.
 
 ![GitHub Logo](/images/run_single_train_command.png)
+
+### Testing 
 
 
 # Citations
