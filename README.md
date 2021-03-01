@@ -17,7 +17,7 @@ This will download a folder named 'data'. There are two subfolders within data '
 # Code Tutorial
 The repository is split into two folders; Single_plane and Multi_plane. The following sections outline how to train and test single-plane and multi-plane models.
 
-## A Single Plane
+## (A) Single-Plane
 
 ### (i) Training 
 This section outlines how to train the single-plane models. The image below outlines the arguments for training the single plane models.
@@ -53,6 +53,11 @@ This section outlines how to test the single-plane models. The image below outli
 
 The following command is an example of testing the trained acl detection model on the test set. The model was trained on data from the axial plane is being tested on data from the axial plane.
 <img src="/images/test_single_plane_command__.png" width="900" height="30"/>
+
+## (B) Multi-Plane
+### (i) Training
+
+### (ii) Testing 
 
 
 # Citations
