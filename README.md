@@ -23,7 +23,8 @@ Repository split into Single_plane and Multi_plane
 The following arguments are to train the single plane models.
 '-directory' is the directory to within the data folder. 
 
-![GitHub Logo](/images/train_arguments.png) 
+<img src="/images/images/train_arguments.png" width="600" height="250"/>
+
 
 The following command is an example of running a model to detect abnormalities using the single plane technique on data from the axial plane.
 
