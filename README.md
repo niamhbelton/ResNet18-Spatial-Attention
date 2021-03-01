@@ -69,7 +69,7 @@ This section outlines how to train the multi-plane models. The image below outli
 9. seed - specify the seed.
 
 The following command is an example of running a model to detect acl tears using multi-plane join 1.
-<img src="/images/test_multi_plane_command__.png" width="900" height="30"/>
+<img src="/images/train_multi_plane_command__.png" width="900" height="30"/>
 
 ### (ii) Testing 
 This section outlines how to test the multi-plane models. The image below outlines the arguments for testing multi-plane models.
