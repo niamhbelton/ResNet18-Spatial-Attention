@@ -21,7 +21,6 @@ The repository is split into two folders; Single_plane and Multi_plane. The foll
 
 ### (i) Training 
 This section outlines how to train the single-plane models. The image below outlines the arguments for training the single plane models.
-'-directory' is the directory to within the data folder. 
 
 <img src="/images/train_arguments.png" width="800" height="300"/>
 
@@ -52,7 +51,7 @@ This section outlines how to test the single-plane models. The image below outli
 6. log_every - specify how many iterations must complete before an update on model training is printed out.
 
 The following command is an example of testing the trained acl detection model on the test set. The model was trained on data from the axial plane is being tested on data from the axial plane.
-<img src="/images/test_single_plane_command__.png" width="900" height="30"/>
+<img src="/images/test_single_plane__command.png" width="900" height="30"/>
 
 ## (B) Multi-Plane
 ### (i) Training
@@ -81,7 +80,7 @@ This section outlines how to test the multi-plane models. The image below outlin
 5. log_every - specify how many iterations must complete before an update on model training is printed out.
 
 The following command is an example of testing the trained acl detection model on the test set. 
-<img src="/images/test_multi_plane_command__.png" width="900" height="30"/>
+<img src="/images/test_multi_plane__command.png" width="900" height="30"/>
 
 # Citations
 Ahmed, B, (2019). Deep learning in medical imaging: How to automate the detection of knee injuries in MRI exams ?, URL: https://github.com/ahmedbesbes/mrnet
