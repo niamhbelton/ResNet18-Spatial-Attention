@@ -269,7 +269,7 @@ def parse_arguments():
                         choices=['abnormal', 'acl', 'meniscus'])
     parser.add_argument('--prefix_name', type=str, required=True)
     parser.add_argument('-p', '--plane', type=str, required = True, default=None)
-    parser.add_argument('-d', '--directory', type=str, required = False, default='/content/data/')
+    parser.add_argument('-d', '--directory', type=str, required = False, default='/home/Documents/data/')
     parser.add_argument('--epochs', type=int, default=50)
     parser.add_argument('--lr', type=float, default=1e-5)
     parser.add_argument('--patience', type=int, default=10)
