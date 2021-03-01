@@ -31,7 +31,7 @@ The following command is an example of running a model to detect abnormalities u
 
 ### (ii) Testing 
 
-![GitHub Logo](/images/test_single_plane_arguments.png) 
+! <img src="/images/test_single_plane_arguments.png" width="100" height="100"/>
 
 
 # Citations
