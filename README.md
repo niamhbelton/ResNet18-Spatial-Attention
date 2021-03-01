@@ -20,7 +20,7 @@ The repository is split into two folders; Single_plane and Multi_plane. The foll
 ## A Single Plane
 
 ### (i) Training 
-The image below outlines the arguments for training the single plane models.
+This section outlines how to train the single-plane models. The image below outlines the arguments for training the single plane models.
 '-directory' is the directory to within the data folder. 
 
 <img src="/images/train_arguments.png" width="800" height="300"/>
@@ -41,7 +41,7 @@ The following command is an example of running a model to detect acl tears using
 <img src="/images/train_single_plane_command__.png" width="550" height="30"/>
 
 ### (ii) Testing 
-The image below outlines the arguments for testing single plane models.
+This section outlines how to test the single-plane models. The image below outlines the arguments for testing single plane models.
 <img src="/images/test_single_plane_arguments.png" width="650" height="250"/>
 
 1. task - specify whether the model is training to detect ACL tears, meniscus tears or abnormalities. This must be equal to 'abnormal', 'acl' or 'meniscus'. 
