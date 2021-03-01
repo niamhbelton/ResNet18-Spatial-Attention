@@ -241,9 +241,9 @@ def run(args):
 
             if val_auc > best_val_auc:
                 best_val_auc = val_auc
-                file_name = f'model_fold{fold}_{args.prefix_name}_{args.task}_val_auc_{val_auc:0.4f}_train_auc_{train_auc:0.4f}_epoch_{epoch+1}.pth'
+                file_name = f'model_fold{fold}_{args.prefix_name}_{args.task}_{args.plane}_val_auc_{val_auc:0.4f}_train_auc_{train_auc:0.4f}_epoch_{epoch+1}.pth'
                 for f in os.listdir('./models/'):
-                    if (args.task in f) and (args.prefix_name in f) and ('fold'+str(fold) in f) :
+                    if (args.task in f) and (args.prefix_name in f) and (args.plane in f) and ('fold'+str(fold) in f) :
                         os.remove(f'./models/{f}')
                 torch.save(net, f'./models/{file_name}')
 
@@ -269,7 +269,7 @@ def parse_arguments():
                         choices=['abnormal', 'acl', 'meniscus'])
     parser.add_argument('--prefix_name', type=str, required=True)
     parser.add_argument('-p', '--plane', type=str, required = True, default=None)
-    parser.add_argument('-d', '--directory', type=str, required = False, default='/home/Documents/data/')
+    parser.add_argument('-d', '--directory', type=str, required = False, default='/content/data/')
     parser.add_argument('--epochs', type=int, default=50)
     parser.add_argument('--lr', type=float, default=1e-5)
     parser.add_argument('--patience', type=int, default=10)
