@@ -34,7 +34,7 @@ The following command is an example of running a model to detect abnormalities u
 
 <img src="/images/test_single_plane_arguments.png" width="650" height="250"/>
 
-<img src="/images/test_single_plane_command.png" width="700" height="20"/>
+<img src="/images/test_single_plane_command.png" width="800" height="20"/>
 
 
 # Citations
