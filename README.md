@@ -41,6 +41,7 @@ The following command is an example of running a model to detect acl tears using
 
 ### (ii) Testing 
 This section outlines how to test the single-plane models. The image below outlines the arguments for testing single plane models.
+
 <img src="/images/test_single_plane_arguments.png" width="650" height="250"/>
 
 1. task - specify whether the model is training to detect ACL tears, meniscus tears or abnormalities. This must be equal to 'abnormal', 'acl' or 'meniscus'. 
@@ -68,7 +69,7 @@ This section outlines how to train the multi-plane models. The image below outli
 9. seed - specify the seed.
 
 The following command is an example of running a model to detect acl tears using multi-plane join 1.
-<img src="/images/train_multi_plane_command__.png" width="900" height="30"/>
+<img src="/images/train_multi_plane_command__.png" width="600" height="20"/>
 
 ### (ii) Testing 
 This section outlines how to test the multi-plane models. The image below outlines the arguments for testing multi-plane models.
