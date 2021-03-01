@@ -56,9 +56,32 @@ The following command is an example of testing the trained acl detection model o
 
 ## (B) Multi-Plane
 ### (i) Training
+This section outlines how to train the multi-plane models. The image below outlines the arguments for training multi-plane models.
+
+1. task - specify whether the model is training to detect ACL tears, meniscus tears or abnormalities. This must be equal to 'abnormal', 'acl' or 'meniscus'. 
+2. prefix_name - specify the name of the model.
+3. mod - specify where to fuse planes. This must be equal to 'mp1', 'mp2' or 'mp3'.
+4. directory - specify the director where the 'data' folder is stored.
+5. epochs - specify the number of epochs.
+6. lr - specify the learning rate.
+7. patience - specify the number of iterations where there is no decrease in the validation loss before early stopping is triggered.
+8. log_every - specify how many iterations must complete before an update on model training is printed out.
+9. seed - specify the seed.
+
+The following command is an example of running a model to detect acl tears using multi-plane join 1.
+<img src="/images/test_multi_plane_command__.png" width="900" height="30"/>
 
 ### (ii) Testing 
+This section outlines how to test the multi-plane models. The image below outlines the arguments for testing multi-plane models.
 
+1. task - specify whether the model is training to detect ACL tears, meniscus tears or abnormalities. This must be equal to 'abnormal', 'acl' or 'meniscus'. 
+2. model_name - specify the name of the model.
+3. model_directory - specify the directory of the model.
+4. data_directory - specify the director where the 'data' folder is stored.
+5. log_every - specify how many iterations must complete before an update on model training is printed out.
+
+The following command is an example of testing the trained acl detection model on the test set. 
+<img src="/images/test_multi_plane_command__.png" width="900" height="30"/>
 
 # Citations
 Ahmed, B, (2019). Deep learning in medical imaging: How to automate the detection of knee injuries in MRI exams ?, URL: https://github.com/ahmedbesbes/mrnet
