@@ -15,15 +15,25 @@ The MRNet dataset is available for download at the following link https://stanfo
 This will download a folder named 'data'. There are two subfolders within data 'valid' and 'train'.
 
 # Code Tutorial
-Repository split into Single_plane and Multi_plane
+The repository is split into two folders; Single_plane and Multi_plane. The following sections outline how to train and test single-plane and multi-plane models.
 
 ## A Single Plane
 
 ### (i) Training 
-The following arguments are to train the single plane models.
+The image below outlines the arguments of the single plane models.
 '-directory' is the directory to within the data folder. 
 
 <img src="/images/train_arguments.png" width="800" height="300"/>
+
+1. task - specify whether the model is training to detect ACL tears, meniscus tears or abnormalities. This must be equal to 'abnormal', 'acl' or 'meniscus'. 
+2. prefix_name - specify the name of the model.
+3. plane - specify the plane that the model is training on. This must be equal to 'axial', 'coronal' or 'sagittal'.
+4. directory - specify the director where the 'data' folder is stored.
+5. epochs - specify the number of epochs.
+6. lr - specify the learning rate.
+7. patience - specify the number of iterations where there is no decrease in the validation loss before early stopping is triggered.
+8. log_every - specify how many iterations must complete before an update on model training is printed out.
+9. seed - specify the seed.
 
 
 The following command is an example of running a model to detect abnormalities using the single plane technique on data from the axial plane.
