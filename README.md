@@ -17,9 +17,9 @@ This will download a folder named 'data'. There are two subfolders within data '
 # Code Tutorial
 Repository split into Single_plane and Multi_plane
 
-## Single Plane
+## A Single Plane
 
-### Training 
+### (i) Training 
 The following arguments are to train the single plane models.
 '-directory' is the directory to within the data folder. 
 
@@ -29,7 +29,9 @@ The following command is an example of running a model to detect abnormalities u
 
 ![GitHub Logo](/images/run_single_train_command.png)
 
-### Testing 
+### (ii) Testing 
+
+![GitHub Logo](/images/test_single_plane_arguments.png) 
 
 
 # Citations
