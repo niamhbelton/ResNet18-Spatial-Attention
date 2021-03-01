@@ -12,7 +12,7 @@ This is the official repository for implementing ResNet18 + Spatial Attention as
 
 # Dataset 
 The MRNet dataset is available for download at the following link https://stanfordmlgroup.github.io/competitions/mrnet/.
-This will download a folder named 'data'. There are two subfolders within data 'valid' and 'train'.
+This will download a folder named 'data'. The dataset consists of 1,250 knee MRIs with image level labels. They are labelled as abnormal, having an acl tear and/or meniscus tear. Each MRI exam includes data from the axial, coronal and sagittal plane. Axial is a Proton-Density series, coronal is a T1-weighted series and sagittal is T2-weighted series.
 
 # Code Tutorial
 The repository is split into two folders; Single_plane and Multi_plane. The following sections outline how to train and test single-plane and multi-plane models.
@@ -58,6 +58,9 @@ The following command is an example of testing the trained acl detection model o
 ### (i) Training
 This section outlines how to train the multi-plane models. The image below outlines the arguments for training multi-plane models.
 
+<img src="/images/train_multi_plane_arguments.png" width="800" height="300"/>
+
+
 1. task - specify whether the model is training to detect ACL tears, meniscus tears or abnormalities. This must be equal to 'abnormal', 'acl' or 'meniscus'. 
 2. prefix_name - specify the name of the model.
 3. mod - specify where to fuse planes. This must be equal to 'mp1', 'mp2' or 'mp3'.
@@ -69,10 +72,14 @@ This section outlines how to train the multi-plane models. The image below outli
 9. seed - specify the seed.
 
 The following command is an example of running a model to detect acl tears using multi-plane join 1.
-<img src="/images/train_multi_plane_command__.png" width="600" height="20"/>
+
+<img src="/images/train_multi_plane_command__.png" width="600" height="30"/>
 
 ### (ii) Testing 
 This section outlines how to test the multi-plane models. The image below outlines the arguments for testing multi-plane models.
+
+<img src="/images/test_multi_plane_arguments.png" width="650" height="250"/>
+
 
 1. task - specify whether the model is training to detect ACL tears, meniscus tears or abnormalities. This must be equal to 'abnormal', 'acl' or 'meniscus'. 
 2. model_name - specify the name of the model.
