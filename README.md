@@ -58,7 +58,7 @@ The following command is an example of testing the trained acl detection model o
 ### (i) Training
 This section outlines how to train the multi-plane models. The image below outlines the arguments for training multi-plane models.
 
-<img src="/images/train_multi_plane_arguments.png" width="700" height="300"/>
+<img src="/images/train_multi_plane_arguments.png" width="800" height="250"/>
 
 
 1. task - specify whether the model is training to detect ACL tears, meniscus tears or abnormalities. This must be equal to 'abnormal', 'acl' or 'meniscus'. 
