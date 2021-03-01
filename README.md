@@ -28,7 +28,7 @@ The following arguments are to train the single plane models.
 
 The following command is an example of running a model to detect abnormalities using the single plane technique on data from the axial plane.
 
-<img src="/images/train_single_plane_command.png" width="650" height="50"/>
+<img src="/images/train_single_plane_command.png" width="600" height="30"/>
 
 ### (ii) Testing 
 
