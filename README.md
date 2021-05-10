@@ -1,4 +1,4 @@
-# Optimising Musculoskeletal Knee Injury Detection with Spatial Attention and Extracting Features for Explainability
+# Optimising Knee Injury Detection with Spatial Attention and Validating Localisation Ability
 
 This repository is under construction.
 This is the official repository for implementing ResNet18 + Spatial Attention as outlined in the paper "Optimising Musculoskeletal Knee Injury Detection with Spatial Attention and Extracting Features for Explainability"
@@ -6,7 +6,7 @@ This is the official repository for implementing ResNet18 + Spatial Attention as
 
 
 # Abstract
-
+This work employs a pre-trained, multi-view Convolutional Neural Network (CNN) with a spatial attention block to optimise knee injury detection. An open-source Magnetic Resonance Imaging (MRI) data set with image-level labels was leveraged for this analysis. As MRI data is acquired from three planes, we compare our technique using data from a single-plane and multiple planes (multi-plane). For multi-plane, we investigate various methods of fusing the planes in the network. This analysis resulted in the novel \lq{}MPFuseNet\rq{} network and state-of-the-art Area Under the Curve (AUC) scores for detecting Anterior Cruciate Ligament (ACL) tears and Abnormal MRIs, achieving AUC scores of 0.977 and 0.957 respectively. We then developed an objective metric, Penalised Localisation Accuracy ($PLA$), to validate the model's localisation ability. This metric compares binary masks generated from Grad-Cam output and the radiologist's annotations on a sample of MRIs. We also extracted explainability features in a model-agnostic, human-in-the-loop approach that were then verified as clinically relevant by the radiologist. 
 
 ![GitHub Logo](/images/arc5.png)
 
