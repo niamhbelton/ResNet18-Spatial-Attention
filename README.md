@@ -104,14 +104,11 @@ The following command is an example of testing the trained acl detection model o
 
 | MRI ID | Category | Further description |
 | :---: | :---: | :---: |
-| 0003 | 1 | - |
-| 0275 | 2 | Data Acquired from Coronal Plane |
-| 0544 | 3 | - |
-| 0582 | 1 | - |
-| 0864 | 2 | Data Acquired from Coronal Plane |
-| 1159 | 2 | Data Acquired from Coronal Plane |
-| 1230 | 2 | Data Acquired from Axial Plane |
-
+| ACL | 1 | - |
+| Abnormal | 2 | Data Acquired from Coronal Plane |
+| Abnormal | 3 | - |
+| Abnormal | 1 | - |
+| Meniscus | 2 | Data Acquired from Coronal Plane |
 
 
 
