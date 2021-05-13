@@ -90,7 +90,18 @@ This section outlines how to test the multi-plane models. The image below outlin
 The following command is an example of testing the trained acl detection model on the test set. 
 <img src="/images/test_multi_plane__command.png" width="900" height="30"/>
 
-# Citations
+# Model Configuration 
+| Task | Plane | Model | Number of epochs |
+| :---: | :---: | :---: |
+| ACL | N/A | MPFuseNet | 20 |
+| Abnormal | Axial | Single Plane | 7 |
+| Abnormal | Coronal | Single Plane | 10 |
+| Abnormal | Sagittal | Single Plane | 8 |
+| Meniscus | MPFuseNet | 10 |
+
+
+
+# Bibliography
 Ahmed, B, (2019). Deep learning in medical imaging: How to automate the detection of knee injuries in MRI exams ?, URL: https://github.com/ahmedbesbes/mrnet
 
 
