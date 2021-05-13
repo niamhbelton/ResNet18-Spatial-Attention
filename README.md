@@ -92,7 +92,7 @@ The following command is an example of testing the trained acl detection model o
 
 # Model Configuration 
 | Task | Plane | Model | Number of epochs |
-| :---: | :---: | :---: |
+| :---: | :---: | :---: | :---: |
 | ACL | N/A | MPFuseNet | 20 |
 | Abnormal | Axial | Single Plane | 7 |
 | Abnormal | Coronal | Single Plane | 10 |
@@ -102,7 +102,7 @@ The following command is an example of testing the trained acl detection model o
 
 
 
-| MRI ID | Category | Further description |
+| MRI ID | Category | Further description |   |
 | :---: | :---: | :---: |
 | ACL | 1 | - |
 | Abnormal | 2 | Data Acquired from Coronal Plane |
