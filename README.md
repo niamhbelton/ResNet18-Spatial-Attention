@@ -97,7 +97,7 @@ The following command is an example of testing the trained acl detection model o
 | Abnormal | Axial | Single Plane | 7 |
 | Abnormal | Coronal | Single Plane | 10 |
 | Abnormal | Sagittal | Single Plane | 8 |
-| Meniscus | MPFuseNet | 10 |
+| Meniscus | N/A | MPFuseNet | 10 |
 
 
 
