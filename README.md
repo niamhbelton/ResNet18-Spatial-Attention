@@ -101,17 +101,6 @@ The following command is an example of testing the trained acl detection model o
 
 
 
-
-| MRI ID | Category | Further description |   |
-| :---: | :---: | :---: |
-| ACL | 1 | - |
-| Abnormal | 2 | Data Acquired from Coronal Plane |
-| Abnormal | 3 | - |
-| Abnormal | 1 | - |
-| Meniscus | 2 | Data Acquired from Coronal Plane |
-
-
-
 # Bibliography
 Ahmed, B, (2019). Deep learning in medical imaging: How to automate the detection of knee injuries in MRI exams ?, URL: https://github.com/ahmedbesbes/mrnet
 
